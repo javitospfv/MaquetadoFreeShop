@@ -22,18 +22,35 @@ body {
     border: 2px solid #2F2F2F;
     font-size: 15px;
 }
+    .header .lbl-login {
+        height: 40px;
+        margin-top: 20px;
+        color: #575757;
+        padding-left: 10px;
+        font-size: 15px;
+    }
 .header .form-group {
     width:250px;
 }
 
-.header .glyphicon-search {
+.header .glyphicon {
     color:#FFFFFF;
     font-size:15px;
     padding: 2px, 10px, 0, 0;
 }
+.header .glyphicon-user {
+    color: #CDCDCD;
+}
 
 .header .btn-group {
     margin-top: 12px;
+}
+.header .container-cesta {
+    width: 75px;
+    background-color: #FF3D2A;
+    height: 78px;
+    padding: 20px;
+    margin-top: -10px;
 }
 
 .header .btn-group .btn-default {
@@ -46,3 +63,52 @@ body {
 .btn-group .open .btn-default, .btn-group .open .btn-default:active, .btn-group .open .btn-toggle.btn-default:hover {
     background-color: #252525;
 }
+/***********************************
+--Menu---
+***********************************/
+#div-menu {
+    font-size: 16px;
+    padding-bottom:80px;
+}
+#div-menu li {
+    padding: 5px;
+}
+#div-menu li:hover {
+    background-color: #FF3D2A;
+}
+#div-menu .active {
+    background-color: #FF3D2A;
+}
+#div-menu .active a{
+    background-color: #FF3D2A;
+    color: #FFF;
+}
+#div-menu a {
+    text-decoration: none;
+    color: #575757;
+}
+#div-menu a:hover {
+    color: #FFFFFF;
+    background-color: #FF3D2A;
+}
+#div-menu .highlighted {
+    color: #FF3D2A;
+}
+/***********************************
+--Banner---
+***********************************/
+#div-banner {
+    background-color: #2F2F2F;
+    padding: 5px;
+    color: #D3D3D3;
+}
+#div-banner li{
+    padding: 5px;
+}
+#div-banner li .big{
+    font-size: 40px;
+}
+    #div-banner li img {
+        margin-left:35px;
+        margin-top:15px;
+    }

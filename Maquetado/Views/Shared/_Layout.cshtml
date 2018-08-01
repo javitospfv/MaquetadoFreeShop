@@ -46,15 +46,56 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="form-group has-feedback">
-                        <label class="input-search form-control">Javier Justiniano</label>
-                        <i class="glyphicon glyphicon-search form-control-feedback"></i>
+                    <div class="form-group">
+                        <i class="glyphicon glyphicon-user form-control-static"></i>
+                        <label class="lbl-login">Ingresar</label>                       
                     </div>
                 </div>
-                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <div class="container-cesta">
+                        <img src="~/images/cesta.png" alt="carrito" />
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
+    <div class="container">
+        <div class="col-md-2">
+            <div class="row" id="div-menu">
+                <ul>
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#" class="highlighted">Lanzamiento</a></li>
+                    <li><a href="#" class="highlighted">Promociones</a></li>
+                    <li><a href="#" class="highlighted">Marcas</a></li>
+                    <li><a href="#">Fragancias</a></li>
+                    <li><a href="#">Cosméticos</a></li>
+                    <li><a href="#">Tabacos</a></li>
+                    <li><a href="#">Comestibles</a></li>
+                    <li><a href="#">Electrónica</a></li>
+                    <li><a href="#">Bebidas</a></li>
+                    <li><a href="#">Indumentaria &amp; Acces. </a></li>
+                    <li><a href="#">Relojes </a></li>
+                    <li><a href="#">Lentes</a></li>
+                    <li><a href="#">Jugueteria</a></li>
+                    <li><a href="#">Equipaje</a></li>
+                    <li><a href="#">Made in Argentina</a></li>
+                    <li><a href="#">Catálogo tiendas</a></li>
+                </ul>
+            </div>
+            <div class="row" id="div-banner">
+                <ul>
+                    <li><span>Del 5 al 10 de Julio</span></li>
+                    <li><span class="big">25% off</span></li>
+                    <li><span>En toda la perfumeria femenina</span></li>
+                    <li><img alt="banner" src="~/images/logo.png" height="25" width="80" /></li>
+                </ul>
+            </div>
+            <div class="row" id="div-cards">
+
+            </div>
+        </div>
+        <div class="col-md-10"></div>
+    </div>
         @RenderBody()
 
         <environment include="Development">
