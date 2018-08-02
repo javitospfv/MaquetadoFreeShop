@@ -3,6 +3,7 @@
 ***********************************/
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color:#EEEEEE;
 }
 /***********************************
 --Header---
@@ -22,13 +23,13 @@ body {
     border: 2px solid #2F2F2F;
     font-size: 15px;
 }
-    .header .lbl-login {
-        height: 40px;
-        margin-top: 20px;
-        color: #575757;
-        padding-left: 10px;
-        font-size: 15px;
-    }
+.header .lbl-login {
+    height: 40px;
+    margin-top: 20px;
+    color: #575757;
+    padding-left: 10px;
+    font-size: 15px;
+}
 .header .form-group {
     width:250px;
 }
@@ -108,7 +109,52 @@ body {
 #div-banner li .big{
     font-size: 40px;
 }
-    #div-banner li img {
-        margin-left:35px;
-        margin-top:15px;
-    }
+#div-banner li img {
+    margin-left:35px;
+    margin-top:15px;
+}
+#div-cards .text {
+    background-color: #F5F5F5;
+    font-size: small;
+}
+/***********************************
+--Footer---
+***********************************/
+footer {
+    background-color: #2F2F2F;
+    color: #575757;
+    margin-top:20px;
+    padding-bottom:60px;
+}
+footer .list-horizontal {
+    padding:40px 45px 30px 0;
+}
+footer .info-footer {
+    padding-bottom: 10px;
+    font-size: small;
+}
+footer .text-logo {
+    font-size:small;
+}
+footer .big-text-logo {
+    font-size:27px;
+}
+footer .big-text-airport {
+    font-size: 17px;
+    font-weight:bold;
+}
+footer i {
+    background-color: #CDCDCD;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.copy-right {
+    font-size:smaller;
+}
+.copy-right a {
+    color: #575757;
+} 
+.no-padding {
+    padding: 0;
+}
