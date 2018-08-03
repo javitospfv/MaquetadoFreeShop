@@ -1,2 +1,30 @@
-﻿<div id="order-container" class="row"></div>
-<div id="slide-container" class="row"></div>
+﻿<div id="order-container" class="row">
+    <div class="col-md-4">
+        <div class="form-group ">
+            <label>Ordenar por</label>
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Popularidad <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Precio</a></li>
+                    <li><a href="#">fecha</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8 text-right" style="padding-top:10px">
+        <div class="form-group ">
+            <label>Precio U$S 0</label>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            <label>500+</label>
+        </div>
+    </div>
+</div>
+<div id="slide-container" class="row">
+    <div id="slideshow">
+        <img src="~/images/slider/img1.jpg" alt="" class="active" />
+        <img src="img/img2.jpg" alt="" />
+        <img src="img/img3.jpg" alt="" />
+    </div>
+</div>
