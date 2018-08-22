@@ -114,8 +114,10 @@ body {
     margin-top:15px;
 }
 #div-cards .text {
-    background-color: #F5F5F5;
+    background-color: #FFF;
     font-size: small;
+    color: #D3D3D3;
+    position: relative;
 }
 /***********************************
 --Footer---
